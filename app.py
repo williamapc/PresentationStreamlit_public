@@ -31,7 +31,7 @@ TABS = OrderedDict(
         ('Preprocessing du Dataset', st_prepro),
         ('Processing du modèle', st_processing),
         ('Interprétabilité avec Grad-CAM', st_interpretability),
-        ('Upload pour Tester le modèle', st_dl_model)
+        #('Upload pour Tester le modèle', st_dl_model)
 
     ]
 )
