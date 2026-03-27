@@ -3,5 +3,5 @@ pandas
 matplotlib
 streamlit
 Pillow
-#tensorflow
+tensorflow
 altair<5
