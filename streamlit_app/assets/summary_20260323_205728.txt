@@ -1,0 +1,14 @@
+RAPPORT D'ANALYSE EXPLORATOIRE
+==================================================
+
+total_images: 101871
+total_classes: 50
+class_distribution: {'Orange___Haunglongbing_(Citrus_greening)': 5507, 'Tomato___Tomato_Yellow_Leaf_Curl_Virus': 5357, 'Soybean___healthy': 5090, 'Apple___Apple_scab': 2520, 'Apple___healthy': 2510, 'Pepper_bell___healthy': 2486, 'Apple___Black_rot': 2484, 'Potato___Early_blight': 2424, 'Potato___Late_blight': 2424, 'Tomato___healthy': 2407, 'Grape___Esca_(Black_Measles)': 2400, 'Tomato___Early_blight': 2400, 'Pepper_bell___Bacterial_spot': 2391, 'Corn_(maize)___Northern_Leaf_Blight': 2385, 'Corn_(maize)___Common_rust': 2384, 'Grape___Black_rot': 2360, 'Tomato___Leaf_Mold': 2352, 'Corn_(maize)___healthy': 2324, 'Tomato___Late_blight': 2315, 'Peach___Bacterial_spot': 2297, 'Tomato___Target_Spot': 2284, 'Cherry_(including_sour)___healthy': 2282, 'Strawberry___healthy': 2280, 'Potato___healthy': 2280, 'Blueberry___healthy': 2270, 'Tomato___Tomato_mosaic_virus': 2238, 'Raspberry___healthy': 2226, 'Strawberry___Leaf_scorch': 2218, 'Apple___Cedar_apple_rust': 2200, 'Tomato___Septoria_leaf_spot': 2181, 'Tomato___Spider_mites Two-spotted_spider_mite': 2176, 'Squash___Powdery_mildew': 2170, 'Peach___healthy': 2160, 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)': 2152, 'Tomato___Bacterial_spot': 2127, 'Grape___healthy': 2115, 'Cherry_(including_sour)___Powdery_mildew': 2104, 'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot': 2052, 'Loose Silky-bent___healthy': 762, 'Common Chickweed___healthy': 713, 'Scentless Mayweed____healthy': 607, 'Small-flowered Cranesbill____healthy': 576, 'Fat Hen___healthy': 538, 'Sugar beet___healthy': 463, 'Charlock___healthy': 452, 'Cleavers___healthy': 335, 'Black-grass___healthy': 309, 'Shepherd’s Purse____healthy': 274, 'Maize___healthy': 257, 'Common wheat___healthy': 253}
+avg_dimensions: {'width': np.float64(261.39388049592134), 'height': np.float64(261.3711262282691)}
+avg_brightness: 120.39371292667293
+avg_contrast: 41.190224097017364
+avg_blur_score: 3978.2816710560123
+avg_edge_density: 0.20215351949304486
+avg_leaf_coverage: 0.3368760024214957
+blurry_images: 4770
+low_coverage_images: 41633

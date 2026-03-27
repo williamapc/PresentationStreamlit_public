@@ -1,0 +1,9 @@
+RAPPORT DÉTAILLÉ DES DOUBLONS (Lecture Humaine)
+============================================================
+
+Date d'analyse: 23/03/2026 21:31:18
+Seuil de similarité: 85%
+
+--- RÉSUMÉ ---
+Doublons exacts (SHA256): 54
+Doublons perceptuels (pHash): 293509
