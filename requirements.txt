@@ -1,7 +1,7 @@
 numpy
 pandas
 matplotlib
-streamlit
+#streamlit
 Pillow
-tensorflow
+#tensorflow
 altair<5
