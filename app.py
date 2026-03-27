@@ -19,9 +19,8 @@ with open("streamlit_app/style.css", "r") as f:
 
 st.markdown(f"<style>{style}</style>", unsafe_allow_html=True)
 
-
-
 # TODO: add new and/or renamed tab in this ordered dict by
+#('Upload pour Tester le modèle', st_dl_model)
 # passing the name in the sidebar as key and the imported tab
 # as value as follow :
 TABS = OrderedDict(
@@ -30,9 +29,7 @@ TABS = OrderedDict(
         ('Présentation du Dataset', st_stats_describe),
         ('Preprocessing du Dataset', st_prepro),
         ('Processing du modèle', st_processing),
-        ('Interprétabilité avec Grad-CAM', st_interpretability),
-        #('Upload pour Tester le modèle', st_dl_model)
-
+        ('Interprétabilité avec Grad-CAM', st_interpretability)
     ]
 )
 
@@ -53,7 +50,6 @@ def run():
     tab = TABS[tab_name]
 
     tab.run()
-
 
 
 if __name__ == "__main__":
