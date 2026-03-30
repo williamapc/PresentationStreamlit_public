@@ -25,11 +25,19 @@ def run():
     ])
 
     #Contenu Onglet 1
-    # with tab_rf:
-    #     st.header("🌲 Random Forest avec SIFT")
-    #     st.subheader("Résultats avec SIFT", text_alignment="center")
-    #     #st.image("assets/assets/VGG16_1.png", width="stretch")
-    #
+    with tab_rf:
+        st.header("🌲 Random Forest avec SIFT")
+        st.subheader("Résultats avec SIFT", text_alignment="center")
+        #st.image("assets/assets/VGG16_1.png", width="stretch")
+        st.subheader("Matrice de confusion avec 100 clusters ", text_alignment="center")
+        st.image("streamlit_app/assets/confusion_matrix_norm.png", width="stretch")
+        st.subheader("Matrice de confusion avec 500 clusters ", text_alignment="center")
+        st.image("streamlit_app/assets/confusion_matrix_norm_500.png", width="stretch")
+        st.subheader("Rapport de classification pour SIFT avec 100 clusters", text_alignment="center")
+        st.image("streamlit_app/assets/classification_report_standard_20260329_213659.png", width="stretch")
+        st.subheader("Rapport de classification pour SIFT avec 500 clusters", text_alignment="center")
+        st.image("streamlit_app/assets/classification_report_standard_20260329_224854.png", width="stretch")
+
     with tab_rf2:
         st.header("🌲 Random Forest avec PCA")
         st.subheader("Matrice de confusion ", text_alignment="center")
