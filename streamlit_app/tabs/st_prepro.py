@@ -31,23 +31,30 @@ def run():
         #
         # st.text(text)
 
-        st.subheader("Extrait de Features avec SIFT et HOG",text_alignment="center")
+        st.subheader("Image floue", text_alignment="center")
 
-        st.image("streamlit_app/assets/sift_hog_M_0152_copy_flipLR.png", width="stretch")
+        st.image("streamlit_app/assets/Blurry_leaf.PNG", width="stretch")
 
         st.markdown("<br><br>", unsafe_allow_html=True)
 
+        st.subheader("Presentation du Dataset en mémoire",text_alignment="center")
 
-        st.subheader("Extrait de Features avec SIFT et HOG",text_alignment="center")
+        st.image("streamlit_app/assets/exemple_dataframe_pandas.png", width="stretch")
+
+        # st.markdown("<br><br>", unsafe_allow_html=True)
+        #
+        # st.image("streamlit_app/assets/sift_hog_5.png", width="stretch")
+
+        st.markdown("<br><br>", unsafe_allow_html=True)
+
+        st.subheader("Extrait de Features avec SIFT et HOG", text_alignment="center")
 
         st.image("streamlit_app/assets/sift_hog_5.png", width="stretch")
 
         st.markdown("<br><br>", unsafe_allow_html=True)
 
-        st.subheader("Distribution des features extraites par SIFT et HOG",text_alignment="center")
+        st.subheader("Distribution des features extraites par SIFT et HOG", text_alignment="center")
 
         st.image("streamlit_app/assets/keypoints_distribution.png", width="stretch")
-
-
 
 

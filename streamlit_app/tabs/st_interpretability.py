@@ -20,16 +20,32 @@ def run():
     col1, col2, col3 = st.columns([1, 4, 1])
 
     with  col2:
-        st.subheader("Exemple de carte de chaleur sur la première couche de Convolution", text_alignment="center")
-        st.image("streamlit_app/assets/heatmap_interpretability_conv2D_first_layer_0.png", width="stretch")
+        st.subheader("Exemple de carte de chaleur sur 1 image bien discriminée", text_alignment="center")
+        st.image("streamlit_app/assets/conv2D_first_layer_fig1.png", width="stretch")
 
         st.markdown("<br><br>", unsafe_allow_html=True)
 
-        st.subheader("Exemple de carte de chaleur sur la deuxième couche de Convolution", text_alignment="center")
-        st.image("streamlit_app/assets/heatmap_interpretability_conv2D_second_layer_0.png", width="stretch")
+        #st.subheader("Exemple de carte de chaleur sur la deuxième couche de Convolution", text_alignment="center")
+        st.image("streamlit_app/assets/conv2D_second_layer_fig2.png", width="stretch")
 
         st.markdown("<br><br>", unsafe_allow_html=True)
 
-        st.subheader("Exemple de carte de chaleur sur la troisième couche de Convolution", text_alignment="center")
-        st.image("streamlit_app/assets/heatmap_interpretability_conv2D_third_layer_0.png", width="stretch")
+        #st.subheader("Exemple de carte de chaleur sur la troisième couche de Convolution", text_alignment="center")
+        st.image("streamlit_app/assets/conv2D_third_layer_fig3.png", width="stretch")
+
+        st.subheader("Exemple de carte de chaleur sur 1 image floue", text_alignment="center")
+        st.image("streamlit_app/assets/conv2D_first_layer_fig6.png", width="stretch")
+
+        st.markdown("<br><br>", unsafe_allow_html=True)
+        st.image("streamlit_app/assets/conv2D_third_layer_fig4.png", width="stretch")
+
+
+
+        #st.subheader("Exemple de carte de chaleur sur la deuxième couche de Convolution", text_alignment="center")
+        st.image("streamlit_app/assets/conv2D_second_layer_fig5.png", width="stretch")
+
+        st.markdown("<br><br>", unsafe_allow_html=True)
+
+        #st.subheader("Exemple de carte de chaleur sur la troisième couche de Convolution", text_alignment="center")
+
 

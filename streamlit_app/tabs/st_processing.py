@@ -21,17 +21,7 @@ def run():
     with  col2:
         st.title("Eléments du processing",text_alignment="center")
 
-        # st.subheader("Random Forest learning type")
-        #
-        # file_path = Path(__file__).parent / "" / "processing_RForest.txt"
-        # #print(file_path)
-        # with file_path.open(encoding="utf-8") as f:
-        #     text = f.read()
-        #
-        # st.text(text)
-        # # st.text_area("")
-        #
-        # st.divider()
+
         st.markdown("<br><br>", unsafe_allow_html=True)
         st.title("VGG16", text_alignment="center")
         st.subheader("VGG16 avant dégel",text_alignment="center")

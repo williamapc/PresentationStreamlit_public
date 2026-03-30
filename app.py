@@ -7,7 +7,8 @@ import streamlit as st
 from streamlit_app import config
 
 # TODO : you can (and should) rename and add tabs in the ./tabs folder, and import them here.
-from streamlit_app.tabs import intro, st_stats_describe, st_dl_model, st_prepro, st_processing, st_interpretability
+from streamlit_app.tabs import intro, st_stats_describe, st_dl_model, st_prepro, st_processing, st_interpretability, \
+    st_processing8
 
 st.set_page_config(
     page_title=config.TITLE,
@@ -28,7 +29,7 @@ TABS = OrderedDict(
         (intro.sidebar_name, intro),
         ('Présentation du Dataset', st_stats_describe),
         ('Preprocessing du Dataset', st_prepro),
-        ('Processing du modèle', st_processing),
+        ('Processing du modèle', st_processing8),
         ('Interprétabilité avec Grad-CAM', st_interpretability)
     ]
 )

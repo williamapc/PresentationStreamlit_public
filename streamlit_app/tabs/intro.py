@@ -46,59 +46,5 @@ def run():
     muti-classes sur laquelle plusieurs techniques d'apprentissage machine
     ont été utilisées.
     
-    Ce document est organisé en plusieurs sections correspondant aux
-    différentes étapes précoisées par la méthodologie data science, à
-    savoir :
-    - :one: La première section est consacrée à la collecte des
-    données.
-    - :two: La deuxième section porte sur l'exploration et l'analyse des données récoltées.
-    - :three: La section trois aborde les techniques utilisées
-    dans le cadre du projet pour la préparation des données.
-    - :four: La modélisation de la problématique est décrite dans la section quatre.
-    - :five: L'évaluation des résultats est effectuée dans la section cinq.
-    
-    
-    ## Collecte des données
-    
-    Identifier, collecter et comprendre les données disponibles. Cette
-    étape révèle souvent des contraintes qui obligent à revisiter le
-    cadrage.  Inventorier les sources de données disponibles (BDD, APIs,
-    fichiers...)  Évaluer la qualité, la volumétrie et la fraîcheur des
-    données Analyse exploratoire (EDA) : distributions, corrélations,
-    valeurs manquantes Détecter les biais et anomalies dans les données
-    Vérifier les aspects légaux (RGPD, licences)
-    
-    
-    
-    réalisation d'une étude en data science, à savoir : projet aborde les
-    différentes commence par décrire les données sur lesquels les
-    algorithmes implémentés ont été entrainés et testés. Ils abordera par
-    la suite les différentes étapes de prétraitements utilisées pour
-    transformer les données aux formats attendus par les algorithmes
-    étudiés pour la réalisation du projet. Il présentera également les
-    deux approches d'apprentissage implémentés comme solutions à la
-    problématique posées et justifera le choix de la solution retenue par
-    l'équipe projet.
-    
-    ## Données
-    
-    ## Etapes de la réalisation
-    
-    ### Prétraitements
-    
-    
-    ### Traitement
-    
-    #### Machine learning
-    
-    #### Deep learning
-    
-    ## Modélisation retenue
-    
-    
-    ## Test et validation
-    
-    ## Conclusion
-
     """
 )

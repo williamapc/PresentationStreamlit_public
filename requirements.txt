@@ -5,3 +5,4 @@ matplotlib
 Pillow
 #tensorflow
 altair<5
+plotly-express
