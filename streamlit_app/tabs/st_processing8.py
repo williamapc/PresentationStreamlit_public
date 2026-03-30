@@ -67,7 +67,7 @@ def run():
     with tab_vgg16:
         st.header("🔮 VVG16")
         st.subheader("Accuracy ", text_alignment="center")
-        st.image("streamlit_app/assets/cnn_accuracy.png", width="stretch")
+        st.image("streamlit_app/assets/vgg16_accuracy.png", width="stretch")
         st.subheader("Matrice de confusion", text_alignment="center")
         st.image("streamlit_app/assets/matrice_confusion_vgg16.png", width="stretch")
 
