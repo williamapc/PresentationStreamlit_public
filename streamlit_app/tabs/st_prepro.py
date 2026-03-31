@@ -41,9 +41,9 @@ def run():
 
         st.image("streamlit_app/assets/exemple_dataframe_pandas.png", width="stretch")
 
-        # st.markdown("<br><br>", unsafe_allow_html=True)
-        #
-        # st.image("streamlit_app/assets/sift_hog_5.png", width="stretch")
+        st.markdown("<br><br>", unsafe_allow_html=True)
+
+        st.image("streamlit_app/assets/sift_hog_Leaf_25_Day_9.png", width="stretch")
 
         st.markdown("<br><br>", unsafe_allow_html=True)
 
