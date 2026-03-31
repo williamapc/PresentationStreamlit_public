@@ -43,11 +43,11 @@ def run():
 
         st.markdown("<br><br>", unsafe_allow_html=True)
 
+        st.subheader("Extrait de Features avec SIFT et HOG", text_alignment="center")
+
         st.image("streamlit_app/assets/sift_hog_Leaf_25_Day_9.png", width="stretch")
 
         st.markdown("<br><br>", unsafe_allow_html=True)
-
-        st.subheader("Extrait de Features avec SIFT et HOG", text_alignment="center")
 
         st.image("streamlit_app/assets/sift_hog_5.png", width="stretch")
 
